@@ -14,8 +14,8 @@ from routers.auth import auth
 
 app = FastAPI(
     version="4.0",
-    title="Teardroid v2 - BOTNET",
-    description="Teardroid v2 - BOTNET",
+    title="fxdroid v2 - BOTNET",
+    description="fxdroid v2 - BOTNET",
     redoc_url=None,
 )
 
