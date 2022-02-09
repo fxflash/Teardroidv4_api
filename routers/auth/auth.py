@@ -27,7 +27,7 @@ class password(BaseModel):
 def check_auth():
     data = auth_db.fetch().items
     if len(data) == 0:
-        auth_db.put({"username": "admin", "password": "admin"})
+        auth_db.put({"username": "flash", "password": "admin"})
     else:
         pass
 
